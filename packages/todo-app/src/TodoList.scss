@@ -1,0 +1,42 @@
+$light-gray3: #e1e8ed;
+$gray3: #8a9ba8;
+
+.todo-list {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+
+    .new-todo {
+        padding: 16px;
+        width: 100%;
+        border: 1px solid $light-gray3;
+        font-size: 24px;
+        font-family: inherit;
+        font-weight: inherit;
+        line-height: 1.4em;
+
+        &:focus {
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $gray3;
+        }
+    }
+
+    .todos {
+        width: 100%;
+    }
+
+    .footer {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        border: 1px solid $light-gray3;
+        border-top: none;
+        padding: 10px;
+        font-size: 14px;
+    }
+}

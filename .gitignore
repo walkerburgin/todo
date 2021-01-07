@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# Vim
+*.swo
+*.swp
+
+# Web
+node_modules
+yarn-error.log
+dist
+coverage
+build

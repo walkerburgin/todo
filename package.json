@@ -1,0 +1,21 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Frontend monorepo root",
+  "author": "Walker Burgin <wburgin@palantir.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "prettier 'packages/**/*.{ts,tsx,scss}' --write",
+    "build": "lerna run build",
+    "clean": "lerna run clean"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2"
+  }
+}

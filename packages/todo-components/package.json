@@ -1,0 +1,29 @@
+{
+  "name": "todo-components",
+  "version": "1.0.0",
+  "description": "Todo list components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Walker Burgin <wburgin@palantir.com>",
+  "license": "MIT",
+  "sideEffects": [
+    "*.css"
+  ],
+  "scripts": {
+    "build": "run-p build:*",
+    "build:ts": "tsc -p src/",
+    "build:scss": "sass src:dist",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.11",
+    "@types/react": "^17.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.32.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^17.0.1"
+  }
+}
