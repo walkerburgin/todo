@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from "react";
-import { TodoItem } from "../../todo-components/dist";
+import { TodoItem } from "todo-components";
 
 import "./TodoList.scss";
 
