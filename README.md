@@ -1,6 +1,6 @@
 # todo
 
-This is a small sample project used to illustrate a January 2021 lecture on frontend build systems for [web.lab](https://weblab.mit.edu/).
+This is a small sample project used to illustrate a January 2021 lecture on frontend build systems for [web.lab](https://weblab.mit.edu/). The project is inspired by [TodoMVC](http://todomvc.com/).
 
 ![Screenshot](./bin/screenshot.png)
 
