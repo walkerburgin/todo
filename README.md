@@ -2,6 +2,8 @@
 
 This is a small sample project used to illustrate a January 2021 lecture on frontend build systems for https://weblab.mit.edu/.
 
+![Screenshot](./bin/screenshot.png)
+
 Quickstart:
 + Make sure you have [yarn](https://classic.yarnpkg.com/lang/en/) installed
 + Run `yarn` to install dependencies
